@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+*
+{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    text-decoration:none;
+    list-style:none;
+}
+
+body
+{
+    text-align: center;
+    padding-left: 52px;
+    padding-right: 52px;
+    color: white;
+    font-size: 15px;
+}
+
+p
+{
+    padding-left: 52px; 
+    padding-right: 52px; 
+}
+
+.card
+{   
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    flex-direction: row;
+}
+
+/* Responsive layout - makes a one column layout instead of a two-column layout */
+@media (max-width: 800px) {
+.card{
+      flex-direction: column;
+    }
+  }
+
+.Sedans 
+{
+    border:1px;
+    background-color:hsl(31, 77%, 52%);
+    width:307px;
+    height: 499px;
+    font-family: 'Big Shoulders Display', cursive;  
+    display:felx;
+}
+
+.SUVs
+{
+    border:1px;
+    background-color: hsl(184, 100%, 22%);
+    width:307px;
+    height: 499px;
+    font-family: 'Big Shoulders Display', cursive;
+    display:felx;
+}
+
+.Luxury
+{
+    border:1px;
+    background-color:hsl(179, 100%, 13%);
+    width:307px;
+    height: 499px;
+    font-family: 'Big Shoulders Display', cursive;
+    display:felx;
+}
+
+.description
+{
+    font-family: 'Lexend Deca', sans-serif;
+    color:   hsla(0, 0%, 100%, 0.75);
+    padding-left:52px;
+    padding-right:52px;
+}
+
+.buttonSedans
+{
+    border: 1px solid hsl(0, 0%, 95%);
+    color:hsl(31, 77%, 52%);
+    border-radius: 30px;
+    width:147px;
+    height: 49px;
+    text-align: center;
+    margin-top:80px;
+    margin-bottom: 49px;
+}
+
+.buttonSUVs
+{
+    border: 1px solid hsl(0, 0%, 95%);
+    color: hsl(184, 100%, 22%);
+    border-radius: 30px;
+    width:147px;
+    height: 49px;
+    text-align: center;
+    margin-top:85px;
+}
+
+.buttonLuxury
+{
+    border: 1px solid hsl(0, 0%, 95%);
+    color:hsl(179, 100%, 13%);
+    border-radius: 30px;
+    width:147px;
+    height: 49px;
+    text-align: center;
+    margin-top:85px;
+}
+
+.buttonLuxury.h4:hover
+{
+    color:hsl(179, 100%, 13%);
+}
+
+#cars
+{
+    padding-top: 49px;  
+    padding-bottom:40px; 
+}
